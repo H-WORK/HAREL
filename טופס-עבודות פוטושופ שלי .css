@@ -1,0 +1,22 @@
+img{display:block; margin:0 auto; border: 15px solid #FFFFFF;}
+
+option,select{background-color:orange;}
+#submitbtn {
+background: orange;
+color: black;
+border: 1px solid #eee;
+border-radius: 20px;
+}
+#submitbtn:hover{
+	background-color:blue;
+}
+
+id{display:block; margin:0 auto; border: 5px solid blue;}
+style{display:block; margin:0 auto; border: 5px solid turquoise;}
+h2{
+	display:inline-block;
+}
+
+
+
+

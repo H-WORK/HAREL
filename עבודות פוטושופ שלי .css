@@ -1,0 +1,15 @@
+ol{font-family:Arial;color:blak;font-size:35px;}
+.redlink{color:red;}
+.redlink {
+ letter-spacing: 0.5px;
+ transition: all 0.2s ease-in;
+}
+.redlink:hover {
+ letter-spacing: 0.5em;
+}
+h1{text-align:center;}
+img{display:block; margin:0 auto; border: 12px solid}
+style{display:block; margin:0 auto; border: 5px solid}
+table{margin:auto; border:2px dashed #ff0a00;border-collapse: collapse;}
+td,th{border:2px dashed #ff0a00;}
+
