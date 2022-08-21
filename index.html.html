@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>טופס הרשמה</title>
+<link rel="stylesheet" href="טופס-עבודות פוטושופ שלי .css">
+<meta charset="utf8">
+<style> 
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid red; #ccc;
+  border-radius: 4px ;
+  font-size: 16px;
+  background-color:orange;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 30%;
+}
+</style>
+</head>
+<body bgcolor="#009900">
+<center>
+    
+	<h1>
+	<id>
+	אם ברצונך להכנס לאתר עבודות הפוטושופ שעשיתי עליך למלא את הפרטים שלך בטופס שנמצא בתחתית הדף
+	</id>
+	</h1>
+	
+  <h2>
+	<style>
+          :הנה דוגמה לעבודה שעשיתי
+	</style>
+  </h2>
+<img src="juice world blue color.png" width=900 height=900/>
+
+<em>
+<strong>
+<h2>*שדה חובה*</h2>
+</strong>
+</em>
+
+<form method="post" action= "עבודות פוטושופ שלי .html">
+
+  <p><label for="fname">first name:</label></p>
+  <input type="text" id="fname" name="fname" required><br>
+  <p><label for="lname">last name:</label></p>
+  <input type="text" id="lname" name="lname" required>
+  <p>
+	   <select id="country" name="country">
+			<option value="au">Australia</option>
+			<option value="ca">Canada</option>
+			<option value="usa">USA</option>
+			<option value="usa">Israel</option>
+			<option value="usa">Holland</option>
+			<option value="usa">Russia</option>
+			<option value="usa">Dubai</option>
+	  </select>
+  </p>
+  <input id="submitbtn" type="submit" value="שלח" name="send">
+
+</form>
+</center>
+</body>
+</html>
